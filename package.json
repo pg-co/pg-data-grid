@@ -1,0 +1,23 @@
+{
+  "name": "pg-data-grid",
+  "version": "1.0.0",
+  "description": "Highly customizable und highly performant DataGrid for Data Visualisation",
+  "main": "dist/index.ts",
+  "scripts": {
+    "test": "echo >> test",
+    "build": "tsc",
+    "start": "tsc && node dist/index.js"
+  },
+  "keywords": [
+    "pg-data-grid",
+    "typescript",
+    "data-grid"
+  ],
+  "author": "pg-co",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^17.0.18",
+    "ts-node": "^10.5.0",
+    "typescript": "^4.5.5"
+  }
+}
